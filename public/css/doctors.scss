@@ -1,0 +1,78 @@
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Teko", sans-serif;
+  }
+
+
+  .doctor-header{
+
+  .title-service, .text{
+    font-family: "Satisfy", sans-serif;
+
+  }
+
+  .btn{
+    width:300px;
+    background-color:#054c5b;
+    color: #fff;
+    border-radius:40px;
+    padding: 15px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bolder;
+    border:none;
+    outline: none;
+    transition: 0.5s;
+    text-decoration: none;
+    &:hover{
+        background-color: #09431b;
+        color:#fff;
+        border: 1px solid #09431b;
+        transform: translateY(-5px);
+    }
+
+}
+
+}
+
+
+
+    //Doctors section
+
+    .section-doctors{
+      padding:50px 0 50px;
+
+      .doctors-content{
+          display: grid;
+          grid-template-columns: repeat(4,1fr);
+          gap:40px;
+          padding:50px 0 50px;
+          @media(max-width:1000px){
+              display:grid;
+              grid-template-columns: repeat(2,1fr);
+              gap:40px
+          }
+
+          @media(max-width:600px){
+              display:grid;
+              grid-template-columns:1fr;
+              gap:40px
+          }
+
+          img{
+              width:100%;
+          }
+
+          .doctors-container{
+              border: 1px solid transparent;
+              box-shadow:5px 5px 5px 5px #f0f8ff;
+          }
+
+          .doctors-detail{
+              text-align: center;
+              padding:10px;
+          }
+      }
+
+  }
+

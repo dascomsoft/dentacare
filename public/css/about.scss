@@ -1,0 +1,130 @@
+
+      
+      h1, h2, h3, h4, h5, h6{
+        font-family: "Teko", sans-serif;
+      }
+    
+
+
+   
+      //INFO SECTION
+
+      .info{
+        padding:100px  0 100px;
+        background-color: rgb(227, 234, 232);
+        margin-top: 0;
+        .title{
+            font-family: "Satisfy", cursive;
+
+        }
+
+        img{
+            width:400px;
+            height:400px;
+            border-radius:50%;
+            object-fit: cover;
+        }
+
+
+        .info-content{
+            text-align: center;
+        }
+
+      }
+
+
+
+
+      
+      //About section
+
+      .about-section{
+        .about-content{
+         .signature{
+             filter: invert(20);
+ 
+         }
+        }
+ 
+     }
+
+
+
+    //SERVICE SECTION
+
+    .section-service{
+      padding:50px 0 50px;
+      .service-content{
+          display:grid;
+          grid-template-rows:1fr;
+          grid-template-columns: repeat(3,1fr);
+          gap:40px;
+          padding:100px 0 40px;
+          @media(max-width:1000px){
+              display: grid;
+              grid-template-rows:1fr;
+              grid-template-columns: repeat(2,1fr);
+          }
+
+
+          @media(max-width:700px){
+              display: grid;
+              grid-template-rows:1fr;
+              grid-template-columns:1fr;
+          }
+
+          img{
+              max-width:100%;
+              height: auto;
+              object-fit: cover;
+              background-color: #483d8b;
+              border-radius:10px;
+              padding:8px;
+          }
+
+          .service-detail{
+            background-color: #ebe9e9;
+            padding:15px;
+            border-radius:15px;
+          }
+      }
+  }
+
+
+
+    //testimony section
+
+    .testimony-section{
+
+    
+
+      .testimony-header{
+          @media(max-width:800px){
+              margin-top:0 ;
+          }
+      }
+
+      svg{
+        border-radius: 50%;
+        background-color: #fff;
+        padding:10px;
+        z-index:1;
+      }
+      .testimony-content{
+          .slide-1, .slide-2, .slide-3{
+              margin-top:30px;
+              text-align: center;
+              @media(max-width:800px){
+                  margin-top:150px;
+              }
+          }
+
+          img{
+              width:100px;
+              height:100px;
+              border-radius:50%;
+              border:5px solid #fff;
+              object-fit: cover;
+          }
+      }
+  }

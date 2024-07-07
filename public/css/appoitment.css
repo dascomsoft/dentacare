@@ -1,0 +1,41 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Teko", sans-serif;
+}
+
+.signUp-section {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  padding: 200px 0 200px;
+}
+@media (max-width: 600px) {
+  .signUp-section {
+    padding: 50px 0 50px;
+  }
+}
+.signUp-section form {
+  display: grid;
+  place-items: center;
+  gap: 30px;
+  border: 1px solid silver;
+  border-radius: 10px;
+  padding: 20px;
+  width: 500px;
+}
+@media (max-width: 600px) {
+  .signUp-section form {
+    width: 400px;
+  }
+}
+.signUp-section form input {
+  outline: none;
+  border: 1px solid silver;
+  padding: 15px;
+  width: 100%;
+}
+.signUp-section form #submit {
+  text-align: center;
+  background-color: #e4e4e4;
+  font-weight: bolder;
+  font-size: 20px;
+}/*# sourceMappingURL=appoitment.css.map */

@@ -1,0 +1,118 @@
+
+  
+ h1, h2, h3, h4, h5, h6{
+    font-family: "Teko", sans-serif;
+  } 
+  
+
+
+  .contact-header{
+
+    .title-service, .text{
+      font-family: "Satisfy", sans-serif;
+  
+    }
+  
+    .btn{
+      width:300px;
+      background-color:#054c5b;
+      color: #fff;
+      border-radius:40px;
+      padding: 15px;
+      text-align: center;
+      font-size: 22px;
+      font-weight: bolder;
+      border:none;
+      outline: none;
+      transition: 0.5s;
+      text-decoration: none;
+      &:hover{
+          background-color: #09431b;
+          color:#fff;
+          border: 1px solid #09431b;
+          transform: translateY(-5px);
+      }
+  
+  }
+  
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  /*CONTACT ZONE*/
+
+  .contact-form{
+    padding:100px 0 100px;
+    .contact-form-container{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        @media(max-width:1000px){
+        display:grid;
+        grid-template-columns:1fr;
+    
+         }
+    }
+
+    img{
+        width:100%;
+    }
+
+.contact-reference-a{
+    background-image:radial-gradient(rgba(20, 21, 51, 0.7),rgba(20, 21, 51, 0.7)),url(images/trucki1.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color:#fff;
+    display: grid;
+    grid-template-columns:1fr;
+    gap:40px;
+    padding:30px 20%;
+      
+        .contact-reference-detail{
+            display: flex;
+            align-items: center;
+            gap:40px;
+            color: #fff;
+
+        }
+
+       #icon{
+        margin-bottom:40px;
+       }
+    }
+
+    .contact-reference-b{
+        background-color: #f8f8ff;
+        .form-section{
+            display:grid;
+            grid-template-columns:1fr;
+            place-content:center;
+            gap:30px;
+             padding:20px;
+            input, textarea{
+                padding:20px;
+                outline:none;
+                border:1px solid silver;
+            }
+
+            #submit{
+              cursor:pointer;
+              background: #df0707;
+              color: #fff;
+              font-weight: bolder;
+              font-size:18px;
+            }
+        }
+    }
+  }

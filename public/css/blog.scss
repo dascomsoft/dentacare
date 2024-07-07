@@ -1,0 +1,128 @@
+
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Teko", sans-serif;
+  }
+
+
+  //blog header section
+
+  .blog-header{
+
+  .title-service, .text{
+    font-family: "Satisfy", sans-serif;
+
+  }
+
+  .btn{
+    width:300px;
+    background-color:#054c5b;
+    color: #fff;
+    border-radius:40px;
+    padding: 15px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bolder;
+    border:none;
+    outline: none;
+    transition: 0.5s;
+    text-decoration: none;
+    &:hover{
+        background-color: #09431b;
+        color:#fff;
+        border: 1px solid #09431b;
+        transform: translateY(-5px);
+    }
+
+}
+
+}
+
+
+
+//description blog
+
+
+
+
+    //Blog section
+
+    .blog-section{
+        padding:100px 0 100px;
+
+        .btn{
+            background-color: rgb(198, 199, 199);
+        }
+
+        .blog-container{
+            display:grid;
+            grid-template-columns: repeat(3,1fr);
+            gap:40px;
+            @media(max-width:1000px){
+                display:grid;
+                grid-template-columns:1fr;
+            }
+
+            img{
+                width:100%;
+            }
+
+            .blog-content{
+                border: 1px solid lightblue;
+                border-radius:10px;
+            }
+
+            .blog-detail{
+                padding:15px;
+            }
+        }
+    }
+
+
+
+
+  //Emergengy section
+
+  .emergency-section{
+    .btn{
+      width:300px;
+      background-color:#054c5b;
+      color: #fff;
+      border-radius:40px;
+      padding: 15px;
+      text-align: center;
+      font-size: 22px;
+      font-weight: bolder;
+      text-decoration: none;
+      border:none;
+      outline: none;
+      transition: 0.5s;
+      &:hover{
+          background-color: #09431b;
+          color:#fff;
+          border: 1px solid #09431b;
+          transform: translateY(-5px);
+      }
+   
+    }
+     
+    .emergency-content {
+      background-color: transparent; /* Fond transparent */
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); /* Ombre portée */
+      color: #fff;
+      padding: 20px;
+      transition: transform 0.3s ease-in-out;
+      max-width: 500px;
+      @media(max-width:400px){
+        max-width:300px;
+      }
+    }
+    
+    .emergency-content:hover {
+      transform: scale(1.05);
+    }
+  
+
+  }
