@@ -4,8 +4,14 @@ const app = express() ;
 
 const hbs = require('express-handlebars');
 
+const path = require('path');
+
+// Configure le répertoire des vues
+app.set('views', path.join(__dirname, 'views'));
+
 
 app.engine('handlebars' , hbs.engine({defaultLayout:'main'}))
+
 
 app.set('view engine' , 'handlebars');
 
