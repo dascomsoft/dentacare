@@ -2,38 +2,31 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Teko", sans-serif;
 }
 
-.signUp-section {
+.login-section {
   display: grid;
   place-items: center;
-  width: 100%;
-  padding: 200px 0 200px;
+  justify-content: center;
+  height: 100vh;
 }
-@media (max-width: 600px) {
-  .signUp-section {
-    padding: 50px 0 50px;
-  }
+.login-section a {
+  text-decoration: none;
 }
-.signUp-section form {
+.login-section form {
   display: grid;
   place-items: center;
   gap: 30px;
   border: 1px solid silver;
   border-radius: 10px;
   padding: 20px;
-  width: 500px;
+  width: 100%;
 }
-@media (max-width: 600px) {
-  .signUp-section form {
-    width: 400px;
-  }
-}
-.signUp-section form input {
+.login-section form input {
   outline: none;
   border: 1px solid silver;
   padding: 15px;
   width: 100%;
 }
-.signUp-section form #submit {
+.login-section form #submit {
   text-align: center;
   background-color: #e4e4e4;
   font-weight: bolder;

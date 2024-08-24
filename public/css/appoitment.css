@@ -5,13 +5,11 @@ h1, h2, h3, h4, h5, h6 {
 .signUp-section {
   display: grid;
   place-items: center;
-  width: 100%;
-  padding: 200px 0 200px;
+  justify-content: center;
+  height: 100vh;
 }
-@media (max-width: 600px) {
-  .signUp-section {
-    padding: 50px 0 50px;
-  }
+.signUp-section a {
+  text-decoration: none;
 }
 .signUp-section form {
   display: grid;
@@ -20,12 +18,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid silver;
   border-radius: 10px;
   padding: 20px;
-  width: 500px;
-}
-@media (max-width: 600px) {
-  .signUp-section form {
-    width: 400px;
-  }
+  width: 100%;
 }
 .signUp-section form input {
   outline: none;

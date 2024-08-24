@@ -60,6 +60,19 @@ h1, h2, h3, h4, h5, h6 {
   gap: 40px;
   color: #fff;
 }
+@media (max-width: 700px) {
+  .contact-form .contact-reference-a .contact-reference-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    text-align: center;
+  }
+}
+@media (max-width: 700px) {
+  .contact-form .contact-reference-a .contact-reference-detail .contact-reference-text {
+    margin-top: 0;
+  }
+}
 .contact-form .contact-reference-a #icon {
   margin-bottom: 40px;
 }
